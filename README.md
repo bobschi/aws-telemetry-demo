@@ -38,3 +38,9 @@ There are other ways to do this: shared configuration files, integrations with t
 - [Terraform: Get Started - AWS](https://learn.hashicorp.com/collections/terraform/aws-get-started)
 - [Terraform: AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
 - [Terraform: AWS API Gateway v2 docs](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/apigatewayv2_api)
+
+### For Later Reference
+
+These tools might be interesting later, but seem currently out of scope.
+
+- [Deploy Python Lambdas with Terraform](https://callaway.dev/deploy-python-lambdas-with-terraform/)
