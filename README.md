@@ -21,12 +21,12 @@ There are other ways to do this: shared configuration files, integrations with t
 
 - [x] Create a free _AWS_ Trial account.
 - [ ] Use _terraform_ to describe the necessary infrastructure.
-- [ ] Create an API Gateway V2 Endpoint offering clients to connect via websocket.
-- [ ] A Lambda Function with Python Code will process every request.
-    - [ ] Check if every message is valid JSON.
-    - [ ] Push all valid JSON into a DynamoDB Instance denoting the websocket's connection Client ID, timestamp and JSON as string.
-    - [ ] Index the Table with a random Unique ID as hash and the timestamp as range index.
-- [ ] For debugging, get familiar with [websocat](https://github.com/vi/websocat)
+    - [ ] Create an API Gateway V2 Endpoint offering clients to connect via websocket.
+    - [ ] A Lambda Function with Python Code will process every request.
+        - [ ] Check if every message is valid JSON.
+        - [ ] Push all valid JSON into a DynamoDB Instance denoting the websocket's connection Client ID, timestamp and JSON as string.
+        - [ ] Index the Table with a random Unique ID as hash and the timestamp as range index.
+- [x] For debugging, get familiar with [websocat](https://github.com/vi/websocat)
 
 ## Ideas
 
@@ -48,3 +48,15 @@ These tools might be interesting later, but seem currently out of scope.
 - [DynamoDB + Terraform - The Ultimate Guide w/ Examples](https://dynobase.dev/dynamodb-terraform/)
 - [How to Create DynamoDB Table using Terraform](https://cloudkatha.com/how-to-create-dynamodb-table-using-terraform/)
 - [Use wscat to connect to a WebSocket API and send messages to it](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-how-to-call-websocket-api-wscat.html) (Should be able to do the same with _websocat_)
+
+## Example JSON Requests
+
+We are assuming that the app sending the telemetry to the websocket does not include a unique ID for storage, but a client ID, which is a UUID.
+
+```json
+{
+    "bed_temp": 60,
+    "chamber_temp": 60,
+    "hot_end_temp": "230"
+}
+```
