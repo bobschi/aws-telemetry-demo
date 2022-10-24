@@ -15,7 +15,7 @@ resource "aws_lambda_function" "lambda" {
   role          = aws_iam_role.lambda_role.arn
   filename      = data.archive_file.python_lambda_source.output_path
 
-  handler = "lambda_handler" // TODO: Extrat to vars file
+  handler = "telemetry.collect_telemetry" // TODO: Extrat to vars file
   runtime = "python3.9"      // TODO: Extrat to vars file
 
   environment {
