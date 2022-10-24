@@ -14,3 +14,7 @@ The Challenge: Create a solution to push arbitrary data onto some sort of perman
     - [ ] Push all valid JSON into a DynamoDB Instance denoting the websocket's connection Client ID, timestamp and JSON as string.
     - [ ] Index the Table with a random Unique ID as hash and the timestamp as range index.
 - [ ] For debugging, get familiar with [websocat](https://github.com/vi/websocat)
+
+## Ideas
+
+- Think about automating deployments with GitHub? Something, something, CI/CD pipelines.
