@@ -4,6 +4,19 @@ I am collecting my progress towards accomplishing a simple challenge here. The c
 
 The Challenge: Create a solution to push arbitrary data onto some sort of permanent storage using state-of-the-art frameworks.
 
+## Deploying with _terraform_
+
+To deploy, install _terraform_ and _aws-cli_ using the [official tutorial](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started).
+
+Option the secrets for your AWS user and set them as environment variables:
+
+```shell
+export AWS_SECRET_ACCESS_KEY=your_secret_access_key_goes_here
+export AWS_ACCESS_KEY_ID=your_access_key_goes_here
+```
+
+There are other ways to do this: shared configuration files, integrations with tools to manage your secrets. We are using this for now because it's quick and just works.
+
 ## To-Do List
 
 - [ ] Create a free _AWS_ Trial account.
