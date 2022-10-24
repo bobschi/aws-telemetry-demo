@@ -38,9 +38,12 @@ There are other ways to do this: shared configuration files, integrations with t
 - [Terraform: Get Started - AWS](https://learn.hashicorp.com/collections/terraform/aws-get-started)
 - [Terraform: AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
 - [Terraform: AWS API Gateway v2 docs](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/apigatewayv2_api)
+- [Using AWS's API Gateway + Lambda + Python to run a simple websocket application](https://pythonawesome.com/using-awss-api-gateway-lambda-python-to-run-a-simple-websocket-application/)
 
 ### For Later Reference
 
 These tools might be interesting later, but seem currently out of scope.
 
 - [Deploy Python Lambdas with Terraform](https://callaway.dev/deploy-python-lambdas-with-terraform/)
+- [DynamoDB + Terraform - The Ultimate Guide w/ Examples](https://dynobase.dev/dynamodb-terraform/)
+- [How to Create DynamoDB Table using Terraform](https://cloudkatha.com/how-to-create-dynamodb-table-using-terraform/)
