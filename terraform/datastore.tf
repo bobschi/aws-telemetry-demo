@@ -1,5 +1,5 @@
 resource "aws_dynamodb_table" "telemetry-example-datastore" {
-  name           = "Telemetry"
+  name           = "telemetry"
   billing_mode   = "PROVISIONED"
   read_capacity  = 5
   write_capacity = 5
