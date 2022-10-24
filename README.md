@@ -35,5 +35,6 @@ There are other ways to do this: shared configuration files, integrations with t
 ## Tutorials Used and Docs Referenced
 
 - [Setup Terraform with AWS on Mac OS](https://jamesmiller.blog/terraform-aws-mac-setup/)
-- [Terraform: AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
 - [Terraform: Get Started - AWS](https://learn.hashicorp.com/collections/terraform/aws-get-started)
+- [Terraform: AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
+- [Terraform: AWS API Gateway v2 docs](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/apigatewayv2_api)
