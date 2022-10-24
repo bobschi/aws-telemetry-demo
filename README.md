@@ -19,7 +19,7 @@ There are other ways to do this: shared configuration files, integrations with t
 
 ## To-Do List
 
-- [ ] Create a free _AWS_ Trial account.
+- [x] Create a free _AWS_ Trial account.
 - [ ] Use _terraform_ to describe the necessary infrastructure.
 - [ ] Create an API Gateway V2 Endpoint offering clients to connect via websocket.
 - [ ] A Lambda Function with Python Code will process every request.
@@ -31,3 +31,9 @@ There are other ways to do this: shared configuration files, integrations with t
 ## Ideas
 
 - Think about automating deployments with GitHub? Something, something, CI/CD pipelines.
+
+## Tutorials Used and Docs Referenced
+
+- [Setup Terraform with AWS on Mac OS](https://jamesmiller.blog/terraform-aws-mac-setup/)
+- [Terraform: AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
+- [Terraform: Get Started - AWS](https://learn.hashicorp.com/collections/terraform/aws-get-started)
