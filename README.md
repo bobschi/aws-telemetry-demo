@@ -47,3 +47,4 @@ These tools might be interesting later, but seem currently out of scope.
 - [Deploy Python Lambdas with Terraform](https://callaway.dev/deploy-python-lambdas-with-terraform/)
 - [DynamoDB + Terraform - The Ultimate Guide w/ Examples](https://dynobase.dev/dynamodb-terraform/)
 - [How to Create DynamoDB Table using Terraform](https://cloudkatha.com/how-to-create-dynamodb-table-using-terraform/)
+- [Use wscat to connect to a WebSocket API and send messages to it](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-how-to-call-websocket-api-wscat.html) (Should be able to do the same with _websocat_)
